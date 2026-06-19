@@ -5,6 +5,12 @@ Flue で作った、Linear Issue 作成 webhook の 1/100 デモです。
 Linear で Issue が作られたら、Flue Channel が webhook を受信し、さくらの AI Engine
 `gpt-oss-120b` で Issue 内容を 1 行要約し、その Issue にコメントとして返します。
 
+## 関連書籍
+
+この実装の背景、Flue の基本概念、さくらの AI Engine での動作確認、Linear webhook 連携までの流れは、Zenn の無料書籍にもまとめています。
+
+- [Flue Framework 実践入門 — AIエージェントを本番で動かす](https://zenn.dev/417/books/flue-framework-guide)
+
 ## 何を作ったか
 
 最終ゴールは、Linear Issue 作成を起点に通知、サブ Issue、Google カレンダー、タスクアサイン、
