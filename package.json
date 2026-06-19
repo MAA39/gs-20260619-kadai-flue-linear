@@ -1,0 +1,32 @@
+{
+  "name": "flue-demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "node --test test/*.test.mjs",
+    "typecheck": "tsc --noEmit",
+    "dev": "flue dev --target node",
+    "build": "flue build --target node"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "dependencies": {
+    "@flue/linear": "^1.0.0-beta.1",
+    "@flue/runtime": "^1.0.0-beta.2",
+    "@linear/sdk": "^86.0.0",
+    "hono": "^4.12.26"
+  },
+  "devDependencies": {
+    "@flue/cli": "^1.0.0-beta.1"
+  },
+  "overrides": {
+    "@flue/linear": {
+      "hono": "4.12.26"
+    },
+    "esbuild": "0.28.1",
+    "ws": "8.21.0"
+  }
+}

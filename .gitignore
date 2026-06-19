@@ -1,0 +1,7 @@
+node_modules/
+dist/
+.env
+.env.local
+.env.*.local
+.flue-vite/
+.DS_Store
