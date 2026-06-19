@@ -4,4 +4,6 @@ dist/
 .env.local
 .env.*.local
 .flue-vite/
+.flue-vite.wrangler.jsonc
+.wrangler/
 .DS_Store

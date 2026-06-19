@@ -17,6 +17,7 @@
     "@flue/linear": "^1.0.0-beta.1",
     "@flue/runtime": "^1.0.0-beta.2",
     "@linear/sdk": "^86.0.0",
+    "agents": "^0.14.5",
     "hono": "^4.12.26"
   },
   "devDependencies": {
