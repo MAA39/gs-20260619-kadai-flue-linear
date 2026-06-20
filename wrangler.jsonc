@@ -5,7 +5,14 @@
   "compatibility_flags": ["nodejs_compat"],
   "observability": {
     "enabled": true,
-    "traces": { "enabled": true }
+    "logs": {
+      "invocation_logs": false,
+      "head_sampling_rate": 0.01
+    },
+    "traces": {
+      "enabled": true,
+      "head_sampling_rate": 1
+    }
   },
   "migrations": [
     {
